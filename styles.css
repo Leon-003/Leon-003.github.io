@@ -255,3 +255,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-off
 .profile-wrap.reveal .profile-card,
 .profile-wrap.reveal .photo-frame,
 .profile-wrap.reveal .photo-frame img{opacity:1;visibility:visible}
+
+/* HERO-ONLY REFINEMENT: slightly smaller profile card for balance */
+.profile-card{width:min(360px,100%)}
+.photo-frame{height:405px}

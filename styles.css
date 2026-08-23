@@ -249,3 +249,9 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-off
   .profile-wrap{min-height:0;padding:10px 0}
   .photo-frame{height:380px}
 }
+
+/* PHOTO VISIBILITY FIX ONLY — preserves all existing layout/styles */
+.profile-wrap.reveal{opacity:1;transform:none;visibility:visible}
+.profile-wrap.reveal .profile-card,
+.profile-wrap.reveal .photo-frame,
+.profile-wrap.reveal .photo-frame img{opacity:1;visibility:visible}

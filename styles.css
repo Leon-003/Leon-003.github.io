@@ -153,3 +153,44 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-off
 :root.light .project-card h3{color:var(--text)}
 :root.light .publication-list b{color:var(--text)}
 :root.light .achievement-grid b{color:var(--text)}
+
+/* ===== Final clean portfolio refinement ===== */
+.quick-stats{grid-template-columns:repeat(4,1fr)}
+.quick-stats>div{min-height:118px}
+.photo-missing{display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#102742,#0b1a2d);color:#fff;font:700 22px "Space Grotesk"}
+.education-list{border-top:1px solid var(--line)}
+.education-item{display:grid;grid-template-columns:170px 1fr;gap:35px;padding:30px 0;border-bottom:1px solid var(--line)}
+.education-item h2{font:700 27px "Space Grotesk";letter-spacing:-1px;margin:0 0 8px}
+.education-item p{color:var(--muted);font-size:13px;margin:5px 0}
+.education-item .edu-year{font:700 12px "Space Grotesk";letter-spacing:1px;color:var(--accent)}
+.coursework-text{max-width:850px;margin-top:18px!important}
+:root.light .section.dark{background:#f4f7fb;color:#0b1728}
+:root.light .section.dark .muted,
+:root.light .section.dark p,
+:root.light .experience-summary,
+:root.light .experience-date{color:#56687d}
+:root.light .section.dark .feature-card,
+:root.light .section.dark .experience-card,
+:root.light .section.dark .achievement-grid,
+:root.light .section.dark .project-card{background:#fff;border-color:rgba(11,23,40,.13)}
+:root.light .section.dark .feature-card h3,
+:root.light .section.dark .project-card h3,
+:root.light .section.dark .achievement-grid b,
+:root.light .section.dark .experience-card h2{color:#0b1728}
+:root.light .section.dark .chips span,
+:root.light .section.dark .experience-tags span{color:#56687d;border-color:rgba(11,23,40,.15)}
+:root.light .section.dark .research-case>div{border-color:rgba(11,23,40,.12)}
+:root.light .section.dark .research-case p{color:#56687d}
+:root.light .section.dark .achievement-grid span,
+:root.light .section.dark .achievement-grid small{color:#56687d}
+:root.light .section.dark .achievement-grid a,
+:root.light .section.dark .card-link,
+:root.light .section.dark .text-link{color:#126fbe}
+:root.light .section.dark .experience-role{color:#126fbe}
+@media(max-width:850px){
+  .quick-stats{grid-template-columns:repeat(2,1fr)}
+  .education-item{grid-template-columns:1fr;gap:8px}
+}
+@media(max-width:560px){
+  .quick-stats{grid-template-columns:1fr 1fr}
+}

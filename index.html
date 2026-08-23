@@ -16,22 +16,31 @@
 <div class="ambient a1"></div><div class="ambient a2"></div>
 
 <header class="site-header" id="header">
-  <nav class="nav container">
-    <a class="brand" href="#home" aria-label="Abul Khayer Leon home">AKL<span>.</span></a>
-    <div class="desktop-nav">
-      <a href="#about">About</a><a href="#research-interests">Research Interests</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#projects">Projects</a>
-      <a href="#skills">Skills</a><a href="#publications">Publications</a><a href="#education">Education</a><a href="#achievements">Achievements</a><a href="#exploring">Currently Exploring</a><a href="#contact">Contact</a>
-    </div>
-    <div class="nav-actions">
-      <a class="cv-mini" href="./Abul_Khayer_Leon_CV.pdf" download>Download CV</a>
-      <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle theme">☾</button>
-      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open navigation">☰</button>
-    </div>
-  </nav>
-  <div class="mobile-nav container" id="mobileNav">
-    <a href="#about">About</a><a href="#research-interests">Research Interests</a><a href="#research">Research</a><a href="#projects">Projects</a>
-    <a href="#skills">Skills</a><a href="#publications">Publications</a><a href="#education">Education</a><a href="#achievements">Achievements</a><a href="#exploring">Currently Exploring</a><a href="#contact">Contact</a>
-  </div>
+  <nav class="navbar">
+<div class="nav-inner container">
+<a class="brand" href="#top">AKL<span>.</span></a>
+<div class="desktop-nav">
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#research">Research</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#publications">Publications</a>
+<a href="#education">Education</a>
+<a href="#achievements">Achievements</a>
+<a href="#contact">Contact</a>
+</div>
+<div class="nav-actions">
+<a class="cv-btn" href="./Abul_Khayer_Leon_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+<button id="themeBtn" class="theme-btn" type="button" aria-label="Switch to light theme">☾</button>
+<button id="menuBtn" class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+</div>
+</div>
+<div class="mobile-nav container" id="mobileNav">
+<a href="#about">About</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#projects">Projects</a>
+<a href="#skills">Skills</a><a href="#publications">Publications</a><a href="#education">Education</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+</div>
+</nav>
 </header>
 
 <main>
@@ -43,7 +52,7 @@
     <p class="lead">Computer Science &amp; Engineering graduate from RUET working on transformer-based NLP, explainable AI, medical AI, and cross-dataset generalization.</p>
     <div class="hero-actions">
       <a class="btn primary" href="#research">Explore Research <b>↗</b></a>
-      <a class="btn secondary" href="https://www.researchgate.net/profile/Abul-Khayer-3?ev=hdr_xprf" target="_blank" rel="noopener">Research Profile <b>↗</b></a>
+      <a class="btn secondary" href="#projects">View Projects <b>↘</b></a>
     </div>
     <div class="social-row">
       <a href="https://www.linkedin.com/in/abul-khayer-leon/" target="_blank" rel="noopener">LinkedIn</a>
@@ -67,10 +76,10 @@
 </section>
 
 <section class="quick-stats container reveal">
-  <div><b>2026</b><span>B.Sc. in CSE · RUET</span></div>
-  <div><b>300+</b><span>Problems solved</span></div>
-  <div><b>3</b><span>Research papers</span></div>
-  <div><b>2026</b><span>Undergraduate thesis</span></div>
+<div><b>2026</b><span>B.Sc. Graduate · RUET</span></div>
+<div><b>300+</b><span>Problems solved</span></div>
+<div><b>3</b><span>Research papers</span></div>
+<div><b>ML</b><span>Intern · FlyRank AI</span></div>
 </section>
 
 <section id="about" class="section container">
@@ -87,61 +96,24 @@
     </div>
   </div>
 </section>
-
-
-<section id="research-interests" class="section light">
-  <div class="container">
-    <div class="section-label">RESEARCH INTERESTS</div>
-    <div class="interests-grid">
-      <div>
-        <h2>Where I want to<br><em>go deeper.</em></h2>
-        <p class="muted">My research interests connect language, robustness, interpretability, and practical intelligent systems.</p>
-      </div>
-      <div class="interest-list">
-        <div><b>Natural Language Processing</b><span>Bangla NLP · Text Classification · Transformer-Based NLP</span></div>
-        <div><b>Explainable AI</b><span>Feature Transferability · Explanation Agreement · Feature Stability</span></div>
-        <div><b>Robust &amp; Adaptive AI</b><span>Cross-Dataset Generalization · Distribution Shift · Transfer Learning</span></div>
-        <div><b>Medical AI &amp; Computer Vision</b><span>Radiology Reports · CNNs · Medical Image Classification</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
 <section id="experience" class="section dark">
-  <div class="container">
-    <div class="section-label">EXPERIENCE</div>
-    <div class="experience-card">
-      <div class="experience-header">
-        <div>
-          <span class="experience-role">Machine Learning Intern</span>
-          <h2>FlyRank AI</h2>
-        </div>
-        <span class="experience-date">2026 — Present</span>
-      </div>
-      <p class="experience-summary">
-        Gaining hands-on industry experience in machine learning and practical AI development,
-        applying research-oriented problem solving to real-world machine learning workflows.
-      </p>
-      <div class="experience-tags">
-        <span>Machine Learning</span>
-        <span>Artificial Intelligence</span>
-        <span>Applied AI</span>
-      </div>
-    </div>
-  </div>
-</section>
-
+<div class="container"><div class="section-label">EXPERIENCE</div>
+<div class="experience-card"><div class="experience-header">
+<div><span class="experience-role">Machine Learning Intern</span><h2>FlyRank AI</h2></div>
+<span class="experience-date">2026 — Present</span></div>
+<p class="experience-summary">Gaining hands-on industry experience in machine learning and practical AI development.</p>
+<div class="experience-tags"><span>Machine Learning</span><span>Artificial Intelligence</span><span>Applied AI</span></div>
+</div></div></section>
 <section id="research" class="section dark">
   <div class="container">
     <div class="section-label">FEATURED RESEARCH</div>
     <div class="feature-grid">
       <div>
         <h2>Current research<br><em>at a glance.</em></h2>
-        <p class="muted">My undergraduate thesis explores how explainability can support adaptation and improve cross-dataset generalization in Bangla sarcasm detection.</p>
+        <p class="muted">My Research Project explores how explainability can support adaptation and improve cross-dataset generalization in Bangla sarcasm detection.</p>
       </div>
       <article class="feature-card">
-        <span class="year">2026 · UNDERGRADUATE THESIS</span>
+        <span class="year">2026 · Research Project</span>
         <h3>An Explainability-Guided Adaptive Framework for Cross-Dataset Generalization in Bangla Sarcasm Detection</h3>
         <div class="chips"><span>NLP</span><span>Transformers</span><span>Explainable AI</span><span>Cross-Dataset</span></div>
         
@@ -220,25 +192,24 @@
     <a href="https://www.researchgate.net/publication/398727512_Memory-Efficient_Deep_Learning_Architectures_for_Water_Body_Segmentation_in_Satellite_Imagery_A_Comparative_Analysis_and_Ensemble_Approach" target="_blank" rel="noopener"><span>2025</span><b>Memory-Efficient Deep Learning Architectures for Water Body Segmentation in Satellite Imagery</b><i>↗</i></a>
   </div>
 </section>
-
-
 <section id="education" class="section light">
-  <div class="container">
-    <div class="section-label">EDUCATION</div>
-    <div class="education-card">
-      <div>
-        <span class="edu-year">2022 — 2026</span>
-        <h2>Rajshahi University of Engineering &amp; Technology</h2>
-        <p>B.Sc. in Computer Science and Engineering · Rajshahi, Bangladesh</p>
-      </div>
-      <div class="coursework">
-        <b>Relevant Coursework</b>
-        <p>Data Structures · Algorithms · Artificial Intelligence · Machine Learning · Data Analysis · Operating Systems · Computer Networks · Database Systems</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+<div class="container">
+<div class="section-label">EDUCATION</div>
+<div class="education-list">
+<article class="education-item">
+<div class="edu-year">2022 — 2026</div>
+<div><h2>Rajshahi University of Engineering &amp; Technology (RUET)</h2>
+<p><strong>B.Sc. in Computer Science and Engineering</strong></p>
+<p>Rajshahi, Bangladesh</p>
+<p class="coursework-text"><b>Relevant Coursework:</b> Data Structures · Algorithms · Artificial Intelligence · Machine Learning · Data Analysis · Operating Systems · Computer Networks · Database Systems</p></div>
+</article>
+<article class="education-item">
+<div class="edu-year">2018 — 2020</div>
+<div><h2>Holyland College Dinajpur</h2>
+<p><strong>Higher Secondary Certificate (HSC)</strong></p>
+<p>Dinajpur, Bangladesh</p></div>
+</article>
+</div></div></section>
 <section id="achievements" class="section dark">
   <div class="container">
     <div class="section-label">ACHIEVEMENTS</div>
@@ -249,17 +220,6 @@
     </div>
   </div>
 </section>
-
-
-<section id="exploring" class="section container">
-  <div class="section-label">CURRENTLY EXPLORING</div>
-  <div class="exploring-grid">
-    <div><span>01</span><b>Bangla NLP</b><p>Cross-dataset generalization, robustness, and transferability.</p></div>
-    <div><span>02</span><b>Explainable AI</b><p>Explanation agreement, feature stability, and interpretable model behavior.</p></div>
-    <div><span>03</span><b>Transformer Models</b><p>Transfer learning and adaptive approaches for language understanding.</p></div>
-  </div>
-</section>
-
 <section id="contact" class="section contact">
   <div class="container contact-box">
     <div class="section-label">CONTACT</div>

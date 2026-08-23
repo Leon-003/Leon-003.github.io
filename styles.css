@@ -194,3 +194,23 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-off
 @media(max-width:560px){
   .quick-stats{grid-template-columns:1fr 1fr}
 }
+
+/* FINAL CLEAN 10/10 */
+.hero{min-height:0!important;padding:70px 0 55px}
+.profile-wrap{min-height:0!important;padding:20px 0}
+.photo-frame{height:400px}
+.quick-stats{grid-template-columns:repeat(4,1fr)}
+.quick-stats>div{min-height:118px}
+.education-list{border-top:1px solid var(--line)}
+.education-item{display:grid;grid-template-columns:170px 1fr;gap:35px;padding:30px 0;border-bottom:1px solid var(--line)}
+.education-item h2{font:700 27px "Space Grotesk";letter-spacing:-1px;margin:0 0 8px}
+.education-item p{color:var(--muted);font-size:13px;margin:5px 0}
+.education-item .edu-year{font:700 12px "Space Grotesk";letter-spacing:1px;color:var(--accent)}
+.coursework-text{max-width:850px;margin-top:18px!important}
+.project-card.hidden{display:none!important}
+:root.light .section.dark{background:#f4f7fb;color:#0b1728}
+:root.light .section.dark p,:root.light .section.dark .muted,:root.light .section.dark .experience-summary,:root.light .section.dark .experience-date{color:#56687d}
+:root.light .section.dark .feature-card,:root.light .section.dark .experience-card,:root.light .section.dark .achievement-grid,:root.light .section.dark .project-card{background:#fff;border-color:rgba(11,23,40,.13)}
+:root.light .section.dark .feature-card h3,:root.light .section.dark .project-card h3,:root.light .section.dark .achievement-grid b,:root.light .section.dark .experience-card h2{color:#0b1728}
+:root.light .section.dark .chips span,:root.light .section.dark .experience-tags span{color:#56687d;border-color:rgba(11,23,40,.15)}
+@media(max-width:850px){.quick-stats{grid-template-columns:repeat(2,1fr)}.education-item{grid-template-columns:1fr;gap:8px}}

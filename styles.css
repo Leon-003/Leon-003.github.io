@@ -127,3 +127,29 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-off
 @media(max-width:650px){
   .experience-header{flex-direction:column;gap:10px}
 }
+
+/* ===== Final visual/functional corrections ===== */
+.hero{min-height:0;padding:70px 0 55px}
+.profile-wrap{min-height:0;padding:20px 0}
+.profile-card{width:min(390px,100%);position:relative}
+.photo-frame{height:400px}
+.hero-copy{position:relative;z-index:3}
+.project-grid{position:relative;z-index:2}
+.project-card{opacity:1;visibility:visible}
+.project-card.hidden{display:none!important}
+#projects{scroll-margin-top:80px}
+@media(max-width:850px){
+  .hero{padding:50px 0 40px}
+  .profile-wrap{padding:10px 0}
+  .photo-frame{height:380px}
+}
+
+:root.light body{background:var(--bg);color:var(--text)}
+:root.light .section.dark{color:var(--text)}
+:root.light .section.dark .muted,
+:root.light .section.dark .feature-card p,
+:root.light .section.dark .research-case p{color:var(--muted)}
+:root.light .project-card{background:var(--panel);color:var(--text)}
+:root.light .project-card h3{color:var(--text)}
+:root.light .publication-list b{color:var(--text)}
+:root.light .achievement-grid b{color:var(--text)}

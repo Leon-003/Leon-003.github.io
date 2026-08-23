@@ -1,15 +1,22 @@
-# Abul Khayer Leon — 10/10 Professional Portfolio
+# Abul Khayer Leon — Corrected Final Portfolio
 
-Research-first, industry-aware, deployment-ready portfolio.
+This version fixes:
+- Hero photo and name visibility
+- Excessive empty space in the hero
+- Project visibility and project filtering
+- Light/dark theme toggle and persistent theme
+- Asset paths for GitHub Pages
+- Responsive mobile layout
 
-## Latest update
-- Added **Machine Learning Intern — FlyRank AI (2026 — Present)** experience section
-- Added Experience to the main navigation
-- Preserved the fixed light/dark theme
-- Preserved Research Interests, thesis case study, Projects, Publications, Education, Achievements, and Currently Exploring
-- CGPA remains intentionally omitted
-- No unverified responsibilities or technical claims were invented for the internship
+It preserves the research-first portfolio, FlyRank AI experience, real project links, publications, education, achievements, CV, and portrait.
 
 ## Deploy
-Upload all files to the root of `Leon-003.github.io`, replace the existing files, and commit to `main`.
-Keep GitHub Pages configured for `main` / `(root)`.
+Upload these files to the root of `Leon-003.github.io`:
+- index.html
+- styles.css
+- script.js
+- passport.png
+- Abul_Khayer_Leon_CV.pdf
+- README.md
+
+Commit to `main`. GitHub Pages should use `main` / `(root)`.
